@@ -195,9 +195,9 @@ def run_completion(
 
 def get_oai_key():
     import os
-    oai_key = st.secrets.get("OPENAI_API_KEY")
+    oai_key = st.secrets.get("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")
     if oai_key is None:
-        oai_key = os.environ.get("OPENAI_API_KEY")
+        oai_key = os.environ.get("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")
     if oai_key is None:
         raise Exception("Must set `OPENAI_API_KEY` environment variable or in .streamlit/secrets.toml")
     return oai_key
