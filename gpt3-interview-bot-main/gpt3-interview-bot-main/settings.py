@@ -18,7 +18,7 @@ import dotenv
 
 class Settings:
     # (env_variable, is_required)
-    SECRET_VARIABLES = [("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", True), ("org-IXisYMqraY8nEdq6LGgec5G7", False)]
+    SECRET_VARIABLES = [("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", True), ("org-IXisYMqraY8nEdq6LGgec5G7", False)]
 
     def __init__(
         self,
