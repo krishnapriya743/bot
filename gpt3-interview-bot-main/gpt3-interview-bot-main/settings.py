@@ -18,7 +18,7 @@ import dotenv
 
 class Settings:
     # (env_variable, is_required)
-    SECRET_VARIABLES = [("OPENAI_API_KEY", True), ("OPENAI_ORG_ID", False)]
+    SECRET_VARIABLES = [("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", True), ("org-IXisYMqraY8nEdq6LGgec5G7", False)]
 
     def __init__(
         self,
